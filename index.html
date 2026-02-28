@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FitLife Studio - Home</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+<style>
+body{
+  margin:0;
+  font-family:Poppins,sans-serif;
+  background:#f9fafb;
+}
+
+header{
+  background:#0f172a;
+  color:white;
+  padding:15px 50px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  margin:0 15px;
+}
+
+.btn{
+  background:#f97316;
+  padding:8px 16px;
+  border-radius:5px;
+  color:white;
+}
+
+.hero{
+  background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("gym.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.section{
+  padding:60px 50px;
+  text-align:center;
+}
+
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+}
+
+.card{
+  background:white;
+  padding:25px;
+  border-radius:10px;
+  box-shadow:0 0 10px #ddd;
+}
+
+footer{
+  background:#020617;
+  color:white;
+  text-align:center;
+  padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h2>FitLife Studio</h2>
+<nav>
+<a href="index.html">Home</a>
+<a href="services.html">Programs</a>
+<a href="contact.html" class="btn">Join</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Transform Your Body in 90 Days</h1>
+<p>Personal Training • Yoga • Weight Loss</p>
+<br>
+<a href="contact.html" class="btn">Start Free Trial</a>
+</section>
+
+<section class="section">
+<h2>Our Programs</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Personal Training</h3>
+<p>One-to-one coaching</p>
+</div>
+
+<div class="card">
+<h3>Weight Loss</h3>
+<p>Fat burning plans</p>
+</div>
+
+<div class="card">
+<h3>Yoga</h3>
+<p>Mind & body balance</p>
+</div>
+
+</div>
+</section>
+
+<section class="section">
+<h2>Why Choose Us</h2>
+
+<div class="cards">
+
+<div class="card">Certified Trainers</div>
+<div class="card">Modern Equipment</div>
+<div class="card">Diet Plans</div>
+<div class="card">Flexible Timings</div>
+
+</div>
+</section>
+
+<footer>
+<p>© 2026 FitLife Studio | Mumbai</p>
+</footer>
+
+</body>
+</html>
